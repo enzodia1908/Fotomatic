@@ -370,7 +370,12 @@ header .tablet {
 }
 
 @media only screen and (max-width: 450px) {
-
+  
+    #features-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
 
   .feature h2 {
     font-size: 1.125rem;
